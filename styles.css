@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #2d3436;
+    margin-bottom: 1.5rem;
+}
+
+#number {
+    width: 80%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid #2d3436;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#convert-btn {
+    padding: 0.8rem 2rem;
+    background-color: #2d3436;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+#convert-btn:hover {
+    transform: translateY(-2px);
+    background-color: #434d52;
+}
+
+#output {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-height: 2rem;
+}
+
+.error {
+    color: #d63031;
+    background-color: #ffeaa7;
+    padding: 0.8rem;
+    border-radius: 4px;
+}
+
+.result {
+    color: #2d3436;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
