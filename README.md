@@ -6,6 +6,7 @@ A general-purpose project repository.
 ## Overview
 
 **musical-system** is a project hosted on GitHub. This repository serves as a starting point or template for development.  
+
 Feel free to clone, fork, or use it as inspiration for your own projects.
 
 ## Features
