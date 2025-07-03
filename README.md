@@ -1,6 +1,5 @@
 # musical-system
 
-
 A general-purpose project repository.
 
 ## Overview
