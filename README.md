@@ -20,4 +20,4 @@ Feel free to clone, fork, or use it as inspiration for your own projects.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/zidan4/musical-system.git
-   cd musical-system
+   cd musical-system 
